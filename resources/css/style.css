@@ -1,0 +1,108 @@
+html, body {
+    font-size: 16px;
+    background-color: black;
+    opacity: 0.9;
+    color: wheat;
+    font-family: 'Rubik', Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.first {
+    margin-right: 2vw;
+}
+
+/* .second {
+    margin-left: 2vw;
+} */
+
+
+h1 {
+    font-size: 3rem;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: wheat;
+    font-size: 1.5rem;
+}
+
+
+/* EXPERIENCE */
+
+.experience {
+    height: 400px;
+    background-image: url(../images/pawel-nolbert-4u2U8EO9OzY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: top;
+    background-position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vw auto;
+}
+
+.experience-text {
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;    
+}
+
+/* PORTFOLIO */
+.portfolio-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-container img {
+    margin: 1rem 2rem;
+}
+
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+/* TEAM */
+
+.team {
+    background-image: url(../images/jet-dela-cruz-E5JGJjgADGE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: fixed;
+    background-size: fit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.person {
+    padding-top: 2vw;
+    width: 300px;
+}
+
+
+
+/* FOOTER */
+
+footer h2 {
+    line-height: 3;
+}
